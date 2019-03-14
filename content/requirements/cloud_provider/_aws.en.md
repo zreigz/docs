@@ -82,6 +82,8 @@ pre = "<b></b>"
             "Effect": "Allow",
             "Action": [
                 "iam:AttachRolePolicy",
+                "iam:PutRolePolicy",
+                "iam:ListInstanceProfilesForRole",
                 "iam:CreateRole",
                 "iam:DeleteInstanceProfile",
                 "iam:DeleteRole"
